@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<wayfire>
+	<plugin name="vsk-shell">
+		<_short>VSK Shell Plugin</_short>
+		<_long>A simple plugin to implement VSK desktop</_long>
+		<category>Utility</category>
+		<option name="start_vsk_session" type="bool">
+			<_short>Start VSK Session</_short>
+			<_long>Start the VSK Session when the plugin loads.</_long>
+			<default>true</default>
+		</option>
+		<option name="session_command" type="string">
+			<_short>VSK Session command</_short>
+			<_long>The commans that is executed to start the VSK session.</_long>
+			<default>vasak-session</default>
+		</option>
+		<option name="panel_config_file" type="string">
+			<_short>Config file for VSK Panel</_short>
+			<_long>Config file for VSK Panel.</_long>
+			<hint>file</hint>
+			<default></default>
+		</option>
+		<option name="runner_config_file" type="string">
+			<_short>Config file for VSK Runner</_short>
+			<_long>Config file for VSK Runner.</_long>
+			<hint>file</hint>
+			<default></default>
+		</option>
+		<option name="notify_config_file" type="string">
+			<_short>Config file for VSK Notificationd</_short>
+			<_long>Config file for VSK Notificationd</_long>
+			<hint>file</hint>
+			<default></default>
+		</option>
+	</plugin>
+</wayfire>
